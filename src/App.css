@@ -73,3 +73,9 @@ h2 {
   opacity: 0;
   transition: 300ms ease-in;
 }
+
+.logo {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #3046c5;
+}

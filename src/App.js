@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Navbar, NavbarBrand } from 'reactstrap';
-import BookLogo from './app/assets/img/logo.jpg';
+import BookLogo from './app/assets/img/logo.png';
 import './App.css';
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
       <Navbar dark color='primary' sticky='top' expand='md'>
         <Container>
           <NavbarBrand href='/'>
-            <img src={BookLogo} alt='book logo' />
+            <img className='logo' src={BookLogo} alt='book logo' />
           </NavbarBrand>
         </Container>
       </Navbar>
